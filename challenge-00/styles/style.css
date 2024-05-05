@@ -1,10 +1,15 @@
 *{
     font-family: "Figtree", sans-serif;
+    /* border: 2px solid black; */
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 body{
-    width: 100%;
-    height: 100vh;
+    /* width: 100%;
+    height: 100%; */
+    height: 100vh; 
     background-color: hsl(47, 88%, 63%);
 
 }
@@ -28,7 +33,7 @@ body{
 }
 
 .card img {
-    width: 350px;
+    width: 100%;
     border-radius: 15px;
 }
 
