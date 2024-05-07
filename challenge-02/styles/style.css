@@ -36,6 +36,15 @@ body{
     border-radius: 10px;
 }
 
+.first-block p{
+    padding: 20px 0;
+
+}
+
+.first-block h1{
+    padding: 15px 0;
+}
+
 .preparation{
     width: 100%;
     background-color:  hsl(330, 100%, 98%);
@@ -48,15 +57,41 @@ body{
     padding: 5px;
 }
 
-.preparation ul{
+ul{
     padding: 10px;
     list-style-position: inside;
 }
 
-.preparation ul li::marker {
+ul li::marker {
     color:  hsl(332, 51%, 32%);
 }
 
 .preparation ul li{
     margin: 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+.ingredients h3{
+    padding-top: 15px;
+    color:  hsl(14, 45%, 36%);
+    font-size: 20px;
+}
+
+
+.instructions {
+    width: 100%;
+}
+
+.instructions ul{
+    list-style-type: decimal;
+    /* padding: 10px; */
+}
+
+.instructions ul li::marker{
+    font-weight:bolder;
+    margin: 10px;
+}
+
+.instructions ul li{
+    margin-bottom: 10px;
 }
