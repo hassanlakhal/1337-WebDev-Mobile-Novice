@@ -63,6 +63,7 @@ ul{
 }
 
 ul li::marker {
+
     color:  hsl(332, 51%, 32%);
 }
 
@@ -77,6 +78,13 @@ ul li::marker {
     font-size: 20px;
 }
 
+.instructions span{
+    max-width: 100%;
+}
+
+.instructions b{
+    padding-left: 10px;
+}
 
 .instructions {
     width: 100%;
@@ -84,12 +92,12 @@ ul li::marker {
 
 .instructions ul{
     list-style-type: decimal;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .instructions ul li::marker{
-    font-weight:bolder;
-    margin: 10px;
+    font-weight:bolder; 
+    margin-left: 10px;   
 }
 
 .instructions ul li{
