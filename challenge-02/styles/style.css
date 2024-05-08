@@ -9,11 +9,14 @@ ul, ol{
     padding: 0 16px;
 }
 
+p, li{
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
 p{
     padding: 10px 0;
-    font-size: 14px;
-    font-weight: 100;
-    color: hsl(30, 10%, 34%);
+  
 }
 
 body{
@@ -42,8 +45,14 @@ img{
     border-radius: 15px;
 }
 
+h3, h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
 .preparation h3{
     color:  hsl(332, 51%, 32%);
+
 }
 
 .ingredients h3, .instructions h3, .nutrition h3{
