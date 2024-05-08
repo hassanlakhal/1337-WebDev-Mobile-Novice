@@ -2,21 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+ul, ol{
+    padding: 0 16px;
 }
 
 
 body{
     background-color:hsl(30, 54%, 90%);
-    /* width: 100vw; */
     height: 100vh;
 }
 
 .container{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     justify-content: center;
-    padding: 20px;
+}
+
+img{
+    max-width:100%;
 }
 
 .box{
@@ -27,79 +34,24 @@ body{
     border-radius: 15px;
 }
 
-.first-block{
-    width: 100%;
-}
-
-.first-block img{
-    width: 100%;
-    border-radius: 10px;
-}
-
-.first-block p{
-    padding: 20px 0;
-
-}
-
-.first-block h1{
-    padding: 15px 0;
+.preparation h3{
+    color:  hsl(332, 51%, 32%);
 }
 
 .preparation{
     width: 100%;
     background-color:  hsl(330, 100%, 98%);
-    padding: 20px;
-    border-radius: 15px;
+    padding: 25px;
+    border-radius: 10px;
 }
 
-.preparation h3{
-    color:  hsl(332, 51%, 32%);
-    padding: 5px;
+.preparation ul{
+
+    margin-top: 15px;
+    padding: 0 25px;
 }
 
-ul{
-    padding: 10px;
-    list-style-position: inside;
-}
-
-ul li::marker {
-
-    color:  hsl(332, 51%, 32%);
-}
-
-.preparation ul li{
-    margin: 10px;
-    color: hsl(24, 5%, 18%);
-}
-
-.ingredients h3{
-    padding-top: 15px;
-    color:  hsl(14, 45%, 36%);
-    font-size: 20px;
-}
-
-.instructions span{
-    max-width: 100%;
-}
-
-.instructions b{
-    padding-left: 10px;
-}
-
-.instructions {
-    width: 100%;
-}
-
-.instructions ul{
-    list-style-type: decimal;
-    padding: 10px;
-}
-
-.instructions ul li::marker{
-    font-weight:bolder; 
-    margin-left: 10px;   
-}
-
-.instructions ul li{
+li {
+    padding-left: 8px;
     margin-bottom: 10px;
 }
